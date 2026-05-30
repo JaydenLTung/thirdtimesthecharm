@@ -1,0 +1,16 @@
+if SHIELD_SAHUR3_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "tripltboard"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_SAHUR3_LEFT
+
+if SHIELD_SAHUR3_LEFT || SHIELD_SAHUR3_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_SAHUR3_LEFT || SHIELD_SAHUR3_RIGHT
