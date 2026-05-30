@@ -18,3 +18,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+ board: [ "nice_nano" ]
+ shield: [ "sahur3_left" ]
+ include:
+   - board: nice_nano
+     shield: sahur3_left
