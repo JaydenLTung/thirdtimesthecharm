@@ -8,7 +8,7 @@
         compatible = "zmk,physical-layout-position-map";
         complete;
 
-        sahur3_map: macropad {
+        sahur3_map: normal {
             physical-layout = <&sahur3_layout>;
             positions
                 = < 0  1  2  3  4  5>
